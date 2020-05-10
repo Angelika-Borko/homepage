@@ -39,6 +39,17 @@
   margin: auto;
 }
 
+.aboutme {
+  background-color: rgba(255,255, 255, 0.1);
+  text-align: center;
+  height: 400px;
+}
+
+.aboutme__img {
+  border-radius: 50%;
+
+}
+
 .h1 {
   color: #546d71;
   font-size: x-large;
