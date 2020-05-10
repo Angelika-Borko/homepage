@@ -5,36 +5,32 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.nav {
-  background: #fdd4d0;
-}
-
-.ul-menu {
+.navigation {
+  background: #FDC7C0;
   overflow: hidden;
-  background-color: initial;
   list-style-type: none;
   margin: 0px;
 }
 
-.li-menu {
+.navigation__item {
   float: left;
-}
-
-.li-menu a:hover {
-  background-color: #fee2de;
-}
-
-.link-menu {
-  font-size: 25px;
-  font-weight: bold;
-  color: #6b717e;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: block;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+.navigation__item a:hover {
+  background-color: #fee2de;
+}
+
+.navigation__item--link {
+  font-size: 25px;
+  font-weight: bold;
+  color: #6b717e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
 }
 
