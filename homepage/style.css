@@ -43,6 +43,7 @@
   background-color: rgba(255,255, 255, 0.1);
   text-align: center;
   height: 400px;
+  padding-top: 50px;
 }
 
 .aboutme__img {
@@ -52,10 +53,12 @@
 
 .blogPost__h1 {
   font-size: 30px;
+  text-align: center;
 }
 
 .blogPost__date {
   font-size: 20px;
+  text-align: center;
 }
 
 .blogPost__post {
@@ -66,6 +69,7 @@
 
 .blogPost__regular-text {
   font-size: 12px;
+  text-align: center;
 }
 
 .h1 {
@@ -99,7 +103,10 @@
   font-size: medium;
 }
 
-footer {
+.footer {
   color: palevioletred;
   font-size: smaller;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
 }
