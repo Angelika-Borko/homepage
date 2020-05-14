@@ -50,6 +50,24 @@
 
 }
 
+.blogPost__h1 {
+  font-size: 30px;
+}
+
+blogPost__date {
+  font-size: 20px;
+}
+
+.blogPost__post {
+  border-style: solid;
+  border-color: lightsteelblue;
+  border-radius: 3%;
+}
+
+.blogPost__regular-text {
+  font-size: 12px;
+}
+
 .h1 {
   color: #546d71;
   font-size: x-large;
