@@ -72,11 +72,11 @@
   font-size: small;
 }
 
-.post {
+.aboutme__post {
   background-color: #dcdcdd;
 }
 
-.regular-text {
+.aboutme__regular-text {
   color: #166088;
   font-size: medium;
 }
